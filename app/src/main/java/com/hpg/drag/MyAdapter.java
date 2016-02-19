@@ -9,8 +9,8 @@ import java.util.List;
 /**
  * Created by paul on 16/2/19.
  */
-public abstract  class MyAdapter extends BaseAdapter {
-    protected List<?> mList ;
+public abstract  class MyAdapter<T extends Object> extends BaseAdapter {
+    protected List<T> mList ;
 
 
     @Override
